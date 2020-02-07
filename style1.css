@@ -1,0 +1,211 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	width: 1170px;
+	margin:auto;
+	
+}
+
+.login-box{
+    width: 700px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    top: 150%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login-box2{
+    width: 550px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0	);
+    top: 220%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login-box1{
+    width: 700px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.3);
+    top: 230%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#box1{
+            height: 100vh;
+            width: 100%;
+            background-image: url(i1.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+.course-title{
+    padding-left: 50px;
+}
+
+body
+{
+	 font-family: LATIN;
+    background:white;
+}
+.mem
+{
+	background-color:white;
+	font-family:"Comic Sans MS", cursive;
+	height:120px;
+}
+.mySlides{
+    width: 600px;
+    height: 500px;
+    border-radius: 20%;
+    position:absolute;
+    top: 800px;
+    left: calc(70% - 10px);
+	 -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+.title{
+    display: inline-block;
+    margin: -40px;
+}
+.mySlides1 {
+    width: 600px;
+    height: 500px;
+    border-radius: 30%;
+    position:absolute;
+    top: 150px;
+    left: calc(10% - 50px);
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+.typewriter {
+	width:800px;
+	height:420px;
+	margin:0.5% 10%;
+	text-align:left;
+    left: 50%;
+}
+.typewriter h1 {
+  color: gray;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+	animation-delay: 2s;
+	animation-iteration-count:infinite;
+  margin-left: 30%;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+header{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("i1.jpg");
+	height:100vh;
+	-wekit-background-size:cover;
+	background-size:cover;
+	background-position:center center;
+	position:relative;
+}
+.nav-area
+{	float:right;
+	list-style:none;
+	margin-top:30px;
+}
+.nav-area li{
+	display:inline-block;
+}
+.nav-area li a
+{
+	color:#fff;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family:arial-black;
+	font-size:19px;
+}
+.nav-area li a:hover
+{
+	background:#fff;
+	color:#333;
+}
+.logo img
+{
+	width:100px;
+	float:left;
+	height:auto;
+}
+
+p{
+color:#fff;
+font-family:arial-black;
+text-align:absolute;
+font-size:25px;
+}
+.nam {
+    position:absolute;
+    width: 1200px;
+    height: 0px;
+	top: 40px;
+    right:250px;
+} 
+
+.welcome-text{
+	position:absolute;
+	width:600px;
+	height:200px;
+	margin:10% 50%;
+	text-align:center;
+}
+.welcome-text h1
+{
+	text-align:center-right;
+	color:#fff;
+	text-transform:uppercase;
+}
+.welcome-text a 
+{
+	border:1px solid #fff;
+	padding:10px 25px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:18px;
+	margin-top:20px;
+	display:inline-block;
+	color:#fff;
+}
+.welcome-text a:hover{
+	background:#fff;
+	color:#000;
+}
+.login-box h2{
+    color: yellow;
+}
